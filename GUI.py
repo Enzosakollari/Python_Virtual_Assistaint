@@ -10,7 +10,7 @@ import subprocess
 import os
 import google.generativeai as genai
 # Configure Gemini API
-genai.configure(api_key="AIzaSyBZxGCfo0y6WrvSZZeJuxgvxDM_knJXVFg")
+genai.configure(api_key="the Api key gotten from Google")
 gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 gemini_chat = gemini_model.start_chat()
 
